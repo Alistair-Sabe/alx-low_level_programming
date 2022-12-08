@@ -5,4 +5,7 @@ code: gcc -E $CFILE -o c
 -E -> preprocessor
 -o -> output
 
-task1:
+task1: compiles a C file and give the output with extension .0
+code: gcc -c $CFILE
+
+task2:
