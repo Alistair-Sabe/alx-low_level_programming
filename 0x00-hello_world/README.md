@@ -16,4 +16,13 @@ task3: compiles a C file and creates an executable named cisfun
 code: gcc $CFILE -o cisfun
 runs all 4 stages of compilation
 
-task4:
+task4: prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+**using _puts_
+code: puts("\"Programming is like building a multilingual puzzle");
+/ symbol to ensure that " is not seen as a special character
+
+task5: prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line
+**using _printf_
+code: printf ("%s \n", "_statement to be printed_"
+
+
