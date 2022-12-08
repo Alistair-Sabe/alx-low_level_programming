@@ -23,6 +23,8 @@ code: puts("\"Programming is like building a multilingual puzzle");
 
 task5: prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line
 **using _printf_
-code: printf ("%s \n", "_statement to be printed_"
+code: printf("%s\n", "_statement to be printed_"
+
+task6: C program that prints the size of various types on the computer it is compiled and run on
 
 
