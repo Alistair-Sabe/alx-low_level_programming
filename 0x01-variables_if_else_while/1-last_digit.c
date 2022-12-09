@@ -23,11 +23,11 @@ int main(void)
 	{
 	printf("and is greater than 5\n");
 	}
-	else if (!(y <= 6))
+	else if (!(y >= 6))
 	{
 	printf("and is less than %d and not 0\n", y);
 	}
-	else if (y = 0)
+	else
 	{
 	printf("and is 0\n");
 	}
