@@ -21,7 +21,7 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-	printif("is negative");
+	printf("is negative");
 	}
 	else
 	{
