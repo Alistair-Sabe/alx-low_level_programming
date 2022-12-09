@@ -27,4 +27,7 @@ code: printf("%s\n", "_statement to be printed_"
 
 task6: C program that prints the size of various types on the computer it is compiled and run on
 
+task7:  script that generates the assembly code (Intel syntax) of a C code and save it in an output file
+code: gcc -S $CFILE
+
 
