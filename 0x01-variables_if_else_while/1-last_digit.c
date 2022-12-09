@@ -27,7 +27,7 @@ int main(void)
 	{
 	printf("and is less than %d and not 0\n", y);
 	}
-	else
+	else if (y = 0)
 	{
 	printf("and is 0\n");
 	}
