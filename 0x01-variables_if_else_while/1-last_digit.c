@@ -25,7 +25,7 @@ int main(void)
 	}
 	else if (!(y >= 6))
 	{
-	printf("and is less $y than and not 0\n");
+	printf("and is less than %d and not 0\n");
 	}
 	else
 	{
