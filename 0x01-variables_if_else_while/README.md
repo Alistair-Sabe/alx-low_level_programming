@@ -10,9 +10,15 @@ code: putchar('\n') -> prints newline
 task3: program that prints the alphabet in lowercase, and then in uppercase
 
 task4: program that prints the alphabet in lowercase except letters e and q
-code: using printf
+code: using _printf_ function
 
 task5: program that prints all single digit numbers of base 10 starting from 0
-using putchar
+code: using _printf_ function
 
-task6:
+task6: program that prints all single digit numbers of base 10 starting from 0
+code: using _putchar_ function
+
+task7: program that prints the lowercase alphabet in reverse
+code using _putchar_ function
+
+
