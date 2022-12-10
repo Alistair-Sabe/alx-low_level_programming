@@ -16,9 +16,13 @@ task5: program that prints all single digit numbers of base 10 starting from 0
 code: using _printf_ function
 
 task6: program that prints all single digit numbers of base 10 starting from 0
-code: using _putchar_ function
+code: using _putchar_ function twice
 
 task7: program that prints the lowercase alphabet in reverse
-code using _putchar_ function
+code: using _putchar_ function twice
 
+task8: program that prints all the numbers of base 16 in lowercase
+code: using _putchar_ function 3 times
 
+task9: program that prints all possible combinations of single-digit numbers
+code: 
