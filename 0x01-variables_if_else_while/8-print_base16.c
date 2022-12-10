@@ -10,7 +10,7 @@ int main(void)
 	int hex;
 	char base;
 
-	for (hex = 0; hex < 0; hex++)
+	for (hex = 0; hex < 10; hex++)
 	putchar((hex % 10 + '0'));
 	for (base = 'a'; base <= 'f'; base++)
 	putchar(base);
