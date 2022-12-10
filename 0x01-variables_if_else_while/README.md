@@ -30,4 +30,17 @@ Numbers should be printed in ascending order
 code: in _putchar_ function add **'0'** to forcefully convert int into character
 	because _putchar_ is used to display chars
 
+task10: program that prints all possible different combinations of two digits
+*Numbers must be separated by ,, followed by a space
+*The two digits must be different*
+*01 and 10 are considered the same combination of the two digits 0 and 1*
+*Print only the smallest combination of two digits*
+*Numbers should be printed in ascending order, with two digits *
 
+task11: program that prints all possible different combinations of three digits.
+
+Numbers must be separated by ,, followed by a space
+The three digits must be different
+012, 120, 102, 021, 201, 210 are considered the same combination of the three digits 0, 1 and 2
+Print only the smallest combination of three digits
+Numbers should be printed in ascending order, with three digits
