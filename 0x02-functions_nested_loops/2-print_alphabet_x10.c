@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * main - Print alphabet ten times
+ * main - Entry point
+ *
+ * description: print alphabet t10 times
  */
 void print_alphabet_x10(void)
 {
