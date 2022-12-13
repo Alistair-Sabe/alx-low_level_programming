@@ -1,8 +1,12 @@
 #include "main.h"
 
 /**
-* description: print alphabet t10 times
-*/
+ * main - Entry point
+ *
+ * description: print alphabet t10 times
+ *
+ * Return: Always 0 (Success)
+ */
 void print_alphabet_x10(void)
 {
 	int ten;
