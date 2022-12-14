@@ -21,7 +21,6 @@ void print_times_table(int n)
 				_putchar(',');
 				_putchar(' ');
 				prd = no * multp;
-
 				if (prd <= 99)
 					_putchar(' ');
 				if (prd <= 9)
@@ -37,6 +36,7 @@ void print_times_table(int n)
 				}
 				_putchar((prd % 10) + '0');
 			}
+			_putchar('\n');
 		}
 	}
 }
