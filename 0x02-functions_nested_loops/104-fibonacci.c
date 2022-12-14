@@ -40,6 +40,6 @@ int main(void)
 		f2_h1 = h1;
 		f2_h2 = h2;
 	}
-	printf('\n");
+	printf("\n");
 	return (0);
 }
