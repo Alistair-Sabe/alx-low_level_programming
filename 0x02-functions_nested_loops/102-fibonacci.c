@@ -27,7 +27,7 @@ int main(void)
 		}
 
 		a = b;
-		b = a;
+		b = nxt;
 
 		nxt = a + b;
 		cnt++;
