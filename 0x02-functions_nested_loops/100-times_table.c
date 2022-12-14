@@ -3,7 +3,6 @@
 /**
  * print_times_table - prints the n times table starting with 0
  * @n: number to be printed
- *
  * n is greater 15 - print nothing
  * n is less 0 - print nothing
  * Return: matrix
