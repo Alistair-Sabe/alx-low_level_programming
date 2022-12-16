@@ -2,8 +2,7 @@
 #include <stdio.h>
 
 /**
- * more_numbers - prints 10 times the numbers, from 0 to 14
- * Return: void
+ * more_numbers - prints 10 times the numbers, from 0 to 14:
  */
 void more_numbers(void)
 {
@@ -15,7 +14,7 @@ void more_numbers(void)
 		{
 			if (n >= 10)
 				putchar('1');
-			putchar (n % 10 + '0');
+			putchar(n % 10 + '0');
 		}
 		putchar('\n');
 	}
