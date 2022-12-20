@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * puts_hald - print half of a string
+ * puts_half - print half of a string
  * @str: parameter
  */
-void puts_hald(char *str)
+void puts_half(char *str)
 {
 	int ln = 0;
 
