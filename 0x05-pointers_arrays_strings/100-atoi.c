@@ -3,10 +3,11 @@
 /**
  * _atoi - convert a string to an integer
  * @s: parameter
- * Return: 0
+ * Return: int
  */
+
 int _atoi(char *s)
 {
 
-	return (0);
+	return (*s);
 }
