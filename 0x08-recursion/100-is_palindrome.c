@@ -15,15 +15,17 @@ int _strlen_recursion(char *s)
 }
 
 /**
- * comparator - compares characters in a string
+ * comparator - Compares each character in a string
  * @s: string
- * @n1 smallest iterator
+ * @n1: smallest iterator
  * @n2: biggest iterator
- * Return: comparison
+ * Return: .
  */
 
 int comparator(char *s, int n1, int n2)
-{if (*(s + n1) == *(s + n2))
+{
+
+	if (*(s + n1) == *(s + n2))
 	{
 		if (n1 == n2 || n1 == n2 + 1)
 			return (1);
@@ -33,9 +35,9 @@ int comparator(char *s, int n1, int n2)
 }
 
 /**
- * is_palidrome - detects if a string is a palindrome
+ * is_palindrome - Detects if a string is a palindrome
  * @s: string
- * Retrun: 1 if string is palindrome, 0 if not
+ * Return: 1 if string is palindrome, 0 if not
  */
 int is_palindrome(char *s)
 {
