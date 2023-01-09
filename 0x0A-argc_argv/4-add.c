@@ -5,7 +5,7 @@
 
 /**
  * main - adds positive numbers from args
- * @agc: arg count
+ * @argc: arg count
  * @argv: arg vector
  * Return: zero
  */
@@ -29,8 +29,7 @@ int main(int argc, char *argv[])
 					printf("Error\n");
 					return (1);
 				}
-			}
-			
+			}		
 			sum += atoi(a);
 			a++;
 		}
