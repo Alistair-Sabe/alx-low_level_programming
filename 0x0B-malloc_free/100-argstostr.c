@@ -28,7 +28,7 @@ char *argstostr(int ac, char **av)
 	if (str == NULL)
 		return (NULL);
 
-	k = 0;
+	z = 0;
 	
 	for (x = 0; x < ac; x++)
 	{
