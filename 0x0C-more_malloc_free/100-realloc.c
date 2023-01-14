@@ -18,7 +18,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		clone = ptr;
 	else
 	{
-		return (malloc(new_szie));
+		return (malloc(new_size));
 	}
 	if (new_size == old_size)
 		return (ptr);
@@ -35,6 +35,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	{
 		*(relloc + i) = clone[i];
 	}
-	free(pr);
+	free(ptr);
+	
 	return (relloc);
 }
