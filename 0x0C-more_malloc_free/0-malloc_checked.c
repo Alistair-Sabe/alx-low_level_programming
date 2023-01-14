@@ -1,6 +1,6 @@
 #include "main.h"
 
-/** 
+/**
  * *malloc_checked - array to print string
  * @b: number of memory
  * Return: void
